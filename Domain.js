@@ -66,6 +66,10 @@ const DomainSchema = new Schema({
             type: Date,
             default: moment().subtract(4, 'year').toISOString()
           },
+          meetings: {
+            type: Date,
+            default: moment().subtract(4, 'year').toISOString()
+          },
           deals: {
             type: Date,
             default: moment().subtract(4, 'year').toISOString()
